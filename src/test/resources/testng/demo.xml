@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="Selenium Demo Tests"
+	skipfailedinvocationcounts="false" junit="false" parallel="tests"
+	data-provider-thread-count="50" annotations="JDK"> 
+
+	<test verbose="1" name="Ebay tests">
+		<classes>
+			<class name="com.qaprosoft.demo.tests.EbayTest" />
+		</classes>
+	</test>
+	
+	<test verbose="1" name="Gmail tests">
+		<classes>
+			<class name="com.qaprosoft.demo.tests.GmailTest" />
+		</classes>
+	</test>
+	
+</suite>
